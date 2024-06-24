@@ -1,0 +1,99 @@
+model: 'ARNet_object'
+exp_name: 'data_split_2'
+model_inputs: 'points'
+label_name: ['cergym_bottleamic','meyerscleanday','mustard','M_mug','pepsi','rubber_hammer','viniger','tissue_box','large_glass_cup','black_metal_container_cylinder','metal_bottle']
+ckpt_path: checkpoint/model_used_for_the_results/split2_points-bc200-lr8.822350445001824e-05-dropout0.2240786067413556-fc_layer150-best_model-epoch=235-train_acc=1.00-val_acc=0.51.ckpt
+lr: 8.822350445001824e-05
+dropout: 0.2240786067413556
+batch_size: 200
+epoches: 500
+log_dir: 'log/lightning_logs'
+num_workers: 8
+num_label: 82
+init_dataset: False
+number_of_tapping_points: 15
+points_latent_dimension: 150
+label_mapping:
+  4_ceramic_vase: 0
+  6_chinese_ceramic_bowl_small: 1
+  7_chip_can: 2
+  10_coca_colar: 3
+  11_coffee_container_paper: 4
+  12_cone_plastic: 5
+  13_cone_wood: 6
+  14_cuboid_ceramic: 7
+  15_cuboid_foam: 8
+  16_cuboid_metal: 9
+  17_cuboid_plastic: 10
+  18_cuboid_wood: 11
+  20_cylinder_plastic: 12
+  21_cylinder_rubber: 13
+  22_cylinder_wood: 14
+  23_dawn: 15
+  25_duke_mug: 16
+  26_duke_science_mug: 17
+  29_glass_locker_square: 18
+  31_gym_bottle: 19
+  34_meyerscleanday: 20
+  36_mustard: 21
+  37_M_mug: 22
+  40_oat_milk: 23
+  41_olive_oil_spray: 24
+  43_paper_cup_with_cover: 25
+  44_paper_tape: 26
+  45_pepper_powder: 27
+  46_pepsi: 28
+  47_pickles: 29
+  50_poptarts: 30
+  53_quadrangular_pyramid_wood: 31
+  54_quadrangular_pyramid_plastic: 32
+  57_rubber_duck: 33
+  58_rubber_hammer: 34
+  65_tea_can: 35
+  71_triangular_prism_plastic: 36
+  72_triangular_prism_wood: 37
+  73_triangular_pyramid_plastic: 38
+  74_viniger: 39
+  77_wooden_hammer: 40
+  82_ceramic_mug_no_handle: 41
+  84_ceramic_vase_small: 42
+  85_cone_foam: 43
+  86_cuboid_foam: 44
+  87_cuboid_glass_container: 45
+  88_cuboid_glass_container_with_wood_lid: 46
+  89_cylinder_glass_container_with_wood_lid: 47
+  90_cylinder_rubber: 48
+  92_glass_cup: 49
+  93_small_ceramic_container_with_lid: 50
+  94_small_ceramic_container_without_lid: 51
+  97_triangular_pyramid_foam: 52
+  98_triangular_prism_foam: 53
+  106_tissue_box: 54
+  107_cuboid_rubber: 55
+  108_triangular_pyramid_rubber: 56
+  109_cone_rubber: 57
+  110_quadrangular_pyramid_rubber: 58
+  111_quadrangular_pyramid_foam: 59
+  112_cylinder_foam: 60
+  114_wood_jar_2: 61
+  115_wood_jar_3: 62
+  116_hard_paper_box: 63
+  119_wood_scoop: 64
+  121_triangular_pyramid_fabric: 65
+  122_cone_fabric: 66
+  123_cuboid_fabric: 67
+  124_triangular_prism_fabric: 68
+  125_wine_glass: 69
+  127_wood_frame: 70
+  128_cylinder_fabric: 71
+  129_quadrangular_pyramid_fabric: 72
+  130_small_glass_cup: 73
+  131_large_glass_cup: 74
+  133_domino_suger: 75
+  135_triangular_prism_rubber: 76
+  black_metal_container_cylinder: 77
+  metal_bottle: 78
+  silvery_metal_container_square: 79
+  white_bottle: 80
+  white_paint: 81
+

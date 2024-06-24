@@ -1,0 +1,12 @@
+chamferdist==1.0.0
+extensions==0.4
+matplotlib==3.7.1
+munch==4.0.0
+numpy==1.24.2
+open3d==0.13.0
+pytorch_lightning==2.0.1
+PyYAML==6.0.1
+tensorboardX==2.6.2
+torch
+torchvision
+tensorboard

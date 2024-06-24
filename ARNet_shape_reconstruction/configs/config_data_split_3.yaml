@@ -1,0 +1,17 @@
+exp_name: 'data_split_3'
+options: 'bid+batchsum+pointmean'        
+log_dir: 'log/lightning_logs'
+train_ckpt_path: 
+test_ckpt_path: checkpoint/model_used_for_testing/data_split_3bid+batchsum+pointmean-epoch=781-val_loss=0.00005.ckpt
+lr: 0.000005
+step_size: 500
+decay_rate: 0.7
+epochs: 1000
+batch_size: 300
+num_workers: 8
+log_frequency: 10
+save_frequency: 10
+init_dataset: False
+num_of_coarse: 2000
+latent_dimension: 1024
+dataset_for_testing:
