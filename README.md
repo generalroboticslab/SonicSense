@@ -14,9 +14,9 @@ We introduce SonicSense, a holistic design of hardware and software to enable ri
 
 ## Code Structure
 
-We provide detailed instructions on running our code under each directory. Please refer to specific README files under each directory.
+We provide detailed instructions on running our code for [material classification](https://github.com/generalroboticslab/SonicSense/tree/main/ARNet_material_classification), [shape reconstruction](https://github.com/generalroboticslab/SonicSense/tree/main/ARNet_shape_reconstruction) and [object re-identification](https://github.com/generalroboticslab/SonicSense/tree/main/ARNet_object_classification) under each subdirectory. Please refer to specific README files under each directory.
 
-(Coming soon!) We will also release the full hardware design and manuals.
+The full CAD model and instruction of our hardware design are under [Hardware_instruction](https://github.com/generalroboticslab/SonicSense/tree/main/Hardware_instruction) subdirectory.
 
 ## Citation
 
@@ -39,4 +39,4 @@ If you find our paper or codebase helpful, please consider citing:
 This repository is released under the Apache License 2.0. See [LICENSE](LICENSE) for additional details.
 
 ## Acknowledgement
-[Point Cloud Renderer](https://github.com/zekunhao1995/PointFlowRenderer)
+[Point Cloud Renderer](https://github.com/zekunhao1995/PointFlowRenderer), [PyLX-16A](https://github.com/ethanlipson/PyLX-16A)
