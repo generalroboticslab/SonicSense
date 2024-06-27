@@ -34,5 +34,9 @@ If you find our paper or codebase helpful, please consider citing:
 }
 ```
 
+## License
+
+This repository is released under the Apache License 2.0. See [LICENSE](LICENSE) for additional details.
+
 ## Acknowledgement
 [Point Cloud Renderer](https://github.com/zekunhao1995/PointFlowRenderer)
