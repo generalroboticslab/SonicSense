@@ -18,5 +18,21 @@ We provide detailed instructions on running our code under each directory. Pleas
 
 (Coming soon!) We will also release the full hardware design and manuals.
 
+## Citation
+
+If you find our paper or codebase helpful, please consider citing:
+
+```
+@article{liu2024sonicsense,
+      title={SonicSense: Object Perception from In-Hand Acoustic Vibration}, 
+      author={Jiaxun Liu and Boyuan Chen},
+      year={2024},
+      eprint={2406.17932},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2406.17932}, 
+}
+```
+
 ## Acknowledgement
 [Point Cloud Renderer](https://github.com/zekunhao1995/PointFlowRenderer)
