@@ -1,6 +1,6 @@
 # SonicSense: Object Perception from In-Hand Acoustic Vibration
 
-Jiaxun Liu, [Boyuan Chen](http://boyuanchen.com/)
+[Jiaxun Liu](https://www.jiaxunliu.com/), [Boyuan Chen](http://boyuanchen.com/)
 <br>
 Duke University
 <br>
