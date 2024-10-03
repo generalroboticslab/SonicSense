@@ -23,14 +23,13 @@ The full CAD model and instruction of our hardware design are under [Hardware_in
 If you find our paper or codebase helpful, please consider citing:
 
 ```
-@article{liu2024sonicsense,
-      title={SonicSense: Object Perception from In-Hand Acoustic Vibration}, 
-      author={Jiaxun Liu and Boyuan Chen},
-      year={2024},
-      eprint={2406.17932},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2406.17932}, 
+@inproceedings{
+liu2024sonicsense,
+title={SonicSense: Object Perception from In-Hand Acoustic Vibration},
+author={Jiaxun Liu and Boyuan Chen},
+booktitle={8th Annual Conference on Robot Learning},
+year={2024},
+url={https://openreview.net/forum?id=CpXiqz6qf4}
 }
 ```
 
