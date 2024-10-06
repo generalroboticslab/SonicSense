@@ -39,3 +39,4 @@ This repository is released under the Apache License 2.0. See [LICENSE](LICENSE)
 
 ## Acknowledgement
 [Point Cloud Renderer](https://github.com/zekunhao1995/PointFlowRenderer), [PyLX-16A](https://github.com/ethanlipson/PyLX-16A)
+`This work is supported by ARL STRONG program under awards W911NF2320182 and W911NF2220113, by DARPA FoundSci program under award HR00112490372, and DARPA TIAMAT program under award HR00112490419.`
